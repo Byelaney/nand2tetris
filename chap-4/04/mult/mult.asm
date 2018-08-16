@@ -12,8 +12,8 @@
 M = 0 // R2 = 0
 (LOOP)
 @R0
-D = M
-D = D - 1
+D = M // D = R0
+D = D - 1 // R0 = R0 - 1
 @END
 D;JLT // if R0 < 0, break
 @R1

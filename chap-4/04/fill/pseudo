@@ -1,0 +1,14 @@
+while true {
+if (KBD == 0) {
+  signal = 0;
+}
+else {
+  signal = 1
+}
+
+int i = 16384;
+while i <= 24575 {
+  M[i] = signal;
+  i = i + 1;
+}
+}
